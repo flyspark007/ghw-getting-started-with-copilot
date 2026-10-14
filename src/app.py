@@ -48,6 +48,8 @@ def root():
 
 
 @app.get("/activities")
+# Updated with new activities and duplicate signup validation
+
 def get_activities():
     return activities
 
